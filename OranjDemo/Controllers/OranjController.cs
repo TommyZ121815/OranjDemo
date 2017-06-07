@@ -22,7 +22,7 @@ namespace OranjDemo.Controllers
         public async Task<ActionResult> Index()
         {
             // make get request once post request is Successful
-            
+           
             OranjDemoAlbum _oranjAlbum = new OranjDemoAlbum();
             using (HttpClient _httpClient = new HttpClient())
             {
